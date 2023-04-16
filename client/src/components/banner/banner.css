@@ -1,0 +1,7 @@
+.headerI{
+    width: 100%;
+    height: 15rem;
+    margin-top: 3px;
+    background-image:url("../../img/bible.jpg");
+    background-size: cover;
+  }

@@ -1,0 +1,207 @@
+
+
+  .single {
+    margin-top: 2rem;
+}
+
+.contentSingle{
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.imgSingle {
+  width: 100%;
+  height: 250px;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.userSingle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.imgUser {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+object-fit: cover;
+}
+
+.editUser {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-left: 20px;
+}
+
+.imgEditDelUser {
+width: 20px;
+height: 20px;
+cursor: pointer;
+}
+
+.titleUser {
+font-size: 25px;
+color: #333;
+margin: 0;
+}
+
+.descUser {
+text-align: justify;
+font-size: 1rem;
+line-height: 2.0 !important;
+letter-spacing: 0.2px !important;
+}
+
+.infoUser p{
+   margin: 0;
+   font-size: 0.8rem;
+}
+ 
+.likeIt{
+   display: flex;
+   align-items: center;
+}
+
+.like{
+    font-size: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+   }
+
+   .trait{
+    display: block;
+    }
+    .clearTrait{
+    display: none;
+    }
+    .trait1{
+    display: block;
+    }
+    .header-top .social-links {
+      margin: 0;
+      display: inline-block;
+      margin-top: 2px;
+  }
+  .social-links {
+    list-style: none;
+    font-size: 0;
+    padding-left: 0;
+}
+.circle {
+  -webkit-border-radius: 100% !important;
+  -moz-border-radius: 100% !important;
+  border-radius: 100% !important;
+}
+
+.social-links li {
+  display: inline-block;
+  margin: 0 7px 2px 0;
+}
+.social-links.circle li a {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+
+.dark .social-links li a {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+}
+
+.social-links li a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 18px;
+  border: 1px solid #e7e7e7;
+  color: #121212;
+  border-radius: 4px;
+}
+
+.social-links:not(.animated-effect-1) li.twitter a:hover, .colored.social-links li.twitter a, .social-links.animated-effect-1 li.twitter a:after, .btn.twitter {
+  background-color: #55acee;
+  border-color: #55acee;
+  color: #ffffff;
+}
+
+.social-links:not(.animated-effect-1) li.youtube a:hover, .colored.social-links li.youtube a, .social-links.animated-effect-1 li.youtube a:after, .btn.youtube {
+  background-color: #b31217;
+  border-color: #b31217;
+  color: #ffffff;
+}
+
+.social-links:not(.animated-effect-1) li.instagram a:hover, .colored.social-links li.instagram a, .social-links.animated-effect-1 li.instagram a:after, .btn.instagram {
+  background-color: #312626;
+  border-color: #312626;
+  color: #ffffff;
+}
+
+
+.social-links:not(.animated-effect-1) li.facebook a:hover, .colored.social-links li.facebook a, .social-links.animated-effect-1 li.facebook a:after, .btn.facebook {
+  background-color: #3b5998;
+  border-color: #3b5998;
+  color: #ffffff;
+}
+
+
+    @media screen and (min-width: 992px) {
+.single {
+  display: flex;
+  gap: 50px;
+  margin: 3rem;
+} 
+
+.contentSingle {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .imgSingle {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .userSingle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+  }
+
+.imgUser {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.editUser {
+  display: flex;
+  gap: 5px;
+}
+
+ 
+.infoUser{
+  font-size: 1.4rem;
+}
+
+.imgEditDelUser {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+}

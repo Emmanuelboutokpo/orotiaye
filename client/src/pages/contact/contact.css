@@ -1,0 +1,64 @@
+.lbel{
+    font-size: 1rem;
+}
+
+.form-group{
+    margin-bottom: 1.5rem;
+}
+
+.inputs {
+    display: block;
+    width: 100%;
+    padding: 0.85rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 1.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.inputs:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+}
+
+
+.btnContact{
+    width: max-content;
+    margin-top: 1.5rem;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid #ced4da;
+    border-radius: 1.375rem;
+    color: teal;
+    font-size: 1rem;
+}
+
+.btnContact:hover{
+    border: 1px solid white;
+    border-color: #86b7fe;
+    color: black;
+}
+
+ legend {
+    text-align: left;
+    font-size: 1.3rem!important;
+    letter-spacing: 1.6px;
+  } 
+
+  .contactNous{
+    margin: 1rem 0;
+  }
+  
+@media screen and (min-width: 992px) {
+     .contactNous{
+        margin: 25px 20rem;
+     }
+  }

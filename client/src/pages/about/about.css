@@ -1,0 +1,41 @@
+  .about{
+    margin: 1rem 0;
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+  
+  .aboutPara{
+    font-size: 1.2rem;
+   letter-spacing: 2px;
+  line-height: 1.6;
+  color: black!important;
+
+}
+
+.imgAbout img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+@media screen and (min-width: 992px) {
+  .imgAbout img {
+    width: 100%;
+    object-fit: cover;
+    height: 30rem;
+}
+
+.container{
+    max-width: 950!important;
+}
+    .about {
+      margin: 1.5rem 0rem;
+      }
+      .aboutPara {
+        font-size: 1.4rem;
+        text-align: left;
+        line-height: 1.5;
+        margin: 1.5rem 3rem;
+      }
+    
+}

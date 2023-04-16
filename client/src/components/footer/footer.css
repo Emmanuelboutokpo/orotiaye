@@ -1,0 +1,39 @@
+.footer{
+    text-align: center;
+}
+
+/* .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  .info a{
+     display: block;
+     text-decoration: none;
+     color: #000000;
+     font-size: 1rem;
+  }
+
+  .cooki{
+    margin-left: 1.5rem;
+  }
+
+  .copyR{
+     text-align: center!important;
+     font-size: 0.8rem!important;
+  }
+
+  
+  @media screen and (min-width: 992px) {
+     .info{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .log{
+       text-align: center;
+     }
+}

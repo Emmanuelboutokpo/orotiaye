@@ -1,0 +1,94 @@
+
+  .categ{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+  }
+
+  .btnCat{
+    background: none!important;
+    border: 1px solid #00000038!important;
+    color: black!important;
+    padding: 7px!important;
+  }
+
+  .btnCat:hover{
+    background: none!important;
+    border: 1px solid #1c172f8a!important;
+  }
+
+  .contactNous{
+    margin: 2rem;
+  }
+
+  .stylet{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+  }
+
+  .titleCat{
+     font-size: 1.3rem;
+  }
+
+  .table-dark.table-striped tbody tr:last-of-type {
+    border-bottom: 5px solid #009879;
+  }
+  table{
+    margin-bottom: 10rem!important;
+  }
+  .btn-edit {
+    background-color: #0b3f50;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    padding: 0.3rem;
+  }
+  
+  .btn-edit:hover{
+    background-color: #162958;
+  }
+
+  .btn-delete {
+    background-color: #f443363b;
+    color: #ffffff;
+     margin-left:15px;
+     border: none;
+     padding: 0.3rem;
+     outline: none;
+  }
+
+  .btn-delete:hover{
+    background-color: #641e19;
+  }
+
+  .stylet th{
+    font-size: 1rem;
+  }
+  
+  tbody{
+    font-size: 1rem;
+  }
+  
+  .modal-title {
+    font-size: 1rem!important;
+  }
+  
+  .form-label {
+    margin-bottom: 1.5rem!important;
+    font-size: 1rem!important;
+  }
+
+  .modal-footer button{
+    font-size: 1rem!important;
+  }
+
+  @media screen and (min-width: 992px) {
+     .contCat{
+      max-width: 975px!important;
+    } 
+    .inputs{
+      font-size: 1rem!important;
+    }
+ }

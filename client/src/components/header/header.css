@@ -1,0 +1,131 @@
+.header {
+  margin-bottom: 30px;
+}
+
+.headerImg {
+  width: 100%;
+  height: 15rem;
+  margin-top: 3px;
+  background-image:url("../../img/bible.jpg");
+  background-size: cover;
+}
+
+.headerImg::after{
+   content: "";
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   background: rgba(0, 0, 0, 0.093);
+   width: 100%;
+}
+
+.headerImg1 {
+  width: 100%;
+  height: 15rem;
+  margin-top: 3px;
+  background-image:url("../../img/belnature.jpg");
+  background-size: cover;
+}
+
+.headerImg1::after{
+   content: "";
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   background: rgba(0, 0, 0, 0.223);
+   width: 100%;
+}
+
+.headerImg2 {
+  width: 100%;
+  height: 15rem;
+  margin-top: 3px;
+  background-image:url("../../img/photo.jpg");
+  background-size: cover;
+}
+
+.headerImg2::after{
+   content: "";
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   background: rgba(0, 0, 0, 0.223);
+   width: 100%;
+}
+.carousel-caption {
+  position: absolute;
+   right: 0!important; 
+  bottom: 0rem;
+  left: 0!important; 
+  padding-top: 1.25rem;
+  margin: 0 .5rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: none!important;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: .5;
+  transition: opacity .15s ease;
+}
+
+.paraCarousel{
+   font-size: 0.8rem;
+}
+
+@media screen and (min-width: 992px) {
+/*   .header {
+    margin: 0 8rem;
+  }
+ */
+ .carousel-caption {
+  position: absolute;
+   right: 0!important; 
+  bottom: 0rem;
+  left: 0!important; 
+  padding-top: 1.25rem;
+  margin: 0 .5rem;
+  padding-bottom: 7.25rem;
+  color: #fff;
+  text-align: center;
+}
+  .headerImg {
+    width: 100%;
+    margin-top: 3px;
+    object-fit: cover;
+    height: 25rem;
+  }
+  .headerImg1 {
+    width: 100%;
+    height: 25rem;
+    margin-top: 3px;
+    background-image:url("../../img/belnature.jpg");
+    background-size: cover;
+  }
+  .headerImg2 {
+    width: 100%;
+    height: 25rem;
+    margin-top: 3px;
+    background-image:url("../../img/photo.jpg");
+    background-size: cover;
+  }
+  .paraCarousel{
+    font-size: 1.2rem;
+ }
+}

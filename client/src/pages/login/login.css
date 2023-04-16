@@ -1,0 +1,71 @@
+.createCompte{
+    height: calc(100vh);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.311),
+        rgba(255, 255, 255, 0.344)
+      ),   url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+   
+    background-size: cover;
+  }
+
+  .loginRegisterButton{
+    width: 100%;
+    padding: 0.85rem 0.75rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    background: #00d371;
+    color: white;
+}
+
+.createButton:hover{
+    background: #035f34;
+    color: white;
+}
+
+.oros{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-family: 'Rubik Wet Paint', cursive;
+    margin-bottom: 0.5rem;
+    display: block;
+    text-align: center;
+}
+
+.createTitles, .cre{
+    color: rgb(55, 55, 55);
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+.formLogin{
+    margin: 0 1rem;
+}
+
+.loginInput {
+    display: block;
+    width: 100%;
+    padding: 0.85rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: rgba(255, 255, 255, 0);
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 1.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.loginInput:focus {
+    color: #212529;
+    background-color: rgba(255, 255, 255, 0.149);
+    border-color: #86b7fe;
+    outline: 0;
+}

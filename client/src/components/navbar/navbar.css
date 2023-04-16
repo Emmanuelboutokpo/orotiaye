@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+.barDeMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+    width: 100%;
+    padding: 1.5rem;
+    box-shadow: 0 -5px 10px rgb(0 0 0 / 49%);
+}
+
+.oro{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Rubik Wet Paint', cursive;
+ }
+
+ svg{
+    width: 1rem;
+    height: 2rem;
+ }
+
+ .hide{
+    border: none;
+    background-color: transparent;  
+    cursor: pointer;
+  }
+
+  .logo{
+    width: 120px;
+}
+
+ .links {
+    list-style: none;
+    position: absolute;
+    background-color: #fff;
+    width: 70%;
+    height: auto;
+    border-radius: 0.7rem;
+    top: 6rem;
+    left: 53px;
+    transition: 1s ease;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 49%);
+    z-index: 1;
+    }
+
+    .link{
+        padding: .6rem 1rem;
+       text-decoration: none;
+       display: block;
+       border-bottom: 1px solid hsla(0, 0%, 48%, 0.368)!important;
+       font-size: 1rem;
+      color: black;
+ }
+
+ .link:hover{
+   background-color: hsla(0, 0%, 48%, 0.079);
+ }
+
+ 
+.linksDesktop{
+    display: none;
+  }
+
+  .dropdown-toggle::after {
+   display: inline-block;
+   margin-left: .255em;
+   vertical-align: .255em;
+   content: "";
+   border-top: 0em solid!important;
+   border-right: 0em solid transparent!important;
+   border-bottom: 0!important;
+   border-left: 0em solid transparent!important;
+}
+
+.dropdown-img {
+   width: 42px;
+   height: 42px;
+   border-radius: 50%;
+}
+
+.dropdown-menu.show {
+   display: block;
+   position: absolute;
+    inset: 0px 0px auto auto;
+    transform: translate(92px, 3px)!important;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: var(--bs-btn-active-color);  
+     background-color: var(--bs-btn-active-bg);  
+    border-color: transparent!important;  
+}
+
+.mb {
+   margin-bottom: 1rem!important;
+ }
+
+  @media screen and (min-width: 768px) {
+    .hide{
+       display: none;
+    }
+
+    .barDeMenu {
+     padding: 0 3rem!important;
+ }
+
+    .linksDesktop{
+       display: block;
+    }
+
+    .linksDesktop{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+  }
+
+  .linkDesktop{
+     font-size: 1rem;
+    padding: 0 .5rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+ }
+}
+
+
+@media screen and (min-width: 992px) {
+    .barDeMenu{
+     padding: 0 5rem;
+    }
+   
+    .linkDesktop {
+     padding: 0 1rem;
+   } 
+
+   .dropdown-menu.show {
+      display: block;
+      position: absolute;
+       inset: 0px 0px auto auto;
+       transform: translate(0px, 74px)!important;
+   }
+}  
+
+/* @media screen and (min-width: 768px) {
+    .barDeMenu{
+      padding: 0 15rem;
+     }
+} */
